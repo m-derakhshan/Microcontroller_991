@@ -13,5 +13,5 @@ This project is an impementation for smart door lock which by provided password 
  here you can see some output pages pictorial
  
  <p align="center">
- <img width="500" height="500" src="https://uupload.ir/files/n8xu_screenshot_2021-03-15_185416.png">
+ <img width="1000" height="500" src="https://uupload.ir/files/n8xu_screenshot_2021-03-15_185416.png">
  </p>
