@@ -1,0 +1,6 @@
+main DSTACK_USAGE:0 DSTACK_LEVEL:0 FILE:"MicroProject.c" LINE:443
+ReadKeyPad DSTACK_USAGE:2 DSTACK_LEVEL:2 FILE:"MicroProject.c" LINE:318
+CheckAccess DSTACK_USAGE:4 DSTACK_LEVEL:6 FILE:"MicroProject.c" LINE:284
+sprintf DSTACK_USAGE:14 DSTACK_LEVEL:20 FILE:"D:\CodeVision\lib\stdio.lib" LINE:1462
+_print DSTACK_USAGE:20 DSTACK_LEVEL:40 FILE:"D:\CodeVision\lib\stdio.lib" LINE:533
+strlen DSTACK_USAGE:2 DSTACK_LEVEL:42 FILE:"D:\CodeVision\lib\string.lib" LINE:1706

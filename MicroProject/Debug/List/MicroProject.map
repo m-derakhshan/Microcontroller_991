@@ -1,0 +1,56 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+keypad                                                                            0x03DE      24
+AllowList                                                                         0x03F6      30
+AccessResult1                                                                     0x0414       2
+list                                                                              0x0416       2
+menu                                                                              0x0418       2
+_seed                                                                             0x041A       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+colloc                                                                            R5           1
+rowloc                                                                            R4           1
+CodeID                                                                            R6,R7        2
+counter                                                                           R9           1
+ShowMenu                                                                          R8           1
+MenuOption                                                                        R11          1
+RegisteredCount                                                                   R10          1
+registration                                                                      R13          1
+code                                                                              R12          1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+lcdData                                                                           0x00203     14
+lcd_init                                                                          0x00211     21
+lcd_gotoxy                                                                        0x00226     24
+lcd_print                                                                         0x0023E     25
+CleenLCD                                                                          0x00257     11
+LED_Warning                                                                       0x00267      9
+ShowMyMenu                                                                        0x00270     19
+History                                                                           0x00283     82
+InsertORDelete                                                                    0x002D5     55
+Delete                                                                            0x0030C     91
+Insert                                                                            0x00367     87
+CheckAccess                                                                       0x003BE     95
+ReadKeyPad                                                                        0x0041D    193
+main                                                                              0x004DE     18
+strcat                                                                            0x004F0     17
+strcmp                                                                            0x00501     20
+strcpy                                                                            0x00515     13
+strlen                                                                            0x00522     12
+strlenf                                                                           0x0052E     13
+strncmp                                                                           0x0053B     25
+put_buff_G101                                                                     0x00554     64
+_print_G101                                                                       0x00594    308
+sprintf                                                                           0x006C8     52
+atoi                                                                              0x006FC     55
+isdigit                                                                           0x00733      9
+isspace                                                                           0x0073C     11
